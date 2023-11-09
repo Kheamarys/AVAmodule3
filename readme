@@ -1,0 +1,10 @@
+# Module3 Smart Contract
+
+Module1 is a simple Ethereum smart contract built using Solidity. It extends the OpenZeppelin ERC20 and Ownable contracts to create a custom ERC20 token with some additional features.
+
+## Features
+
+- Custom ERC20 token named "Berwyn" with the symbol "BWN".
+- Minting new tokens can only be done by the contract owner.
+- Burning tokens allows the contract owner to decrease their own balance.
+- Transferring tokens includes additional logic through the `transfer` function to track the transaction.
